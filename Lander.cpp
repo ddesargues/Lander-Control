@@ -756,7 +756,7 @@ void Lander_Control_M(void){
 		if(Robust_Ang() >= 90) Robust_Rot(270-Robust_Ang());
 		else Robust_Rot(-90-Robust_Ang());
     
-    printf("Putar 1\n");
+    //printf("Putar 1\n");
     return;
   }
  }
@@ -770,7 +770,7 @@ void Lander_Control_M(void){
     if(Robust_Ang() < 269 || Robust_Ang() > 271){
     if(Robust_Ang() >= 270) Robust_Rot(450-Robust_Ang());
        else Robust_Rot(90-Robust_Ang());
-    printf("Putar 2\n");
+    //printf("Putar 2\n");
     return;
  }
 } 
